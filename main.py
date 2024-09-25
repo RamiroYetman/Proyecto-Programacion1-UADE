@@ -24,7 +24,7 @@ clientes = {
 historial_compra = []
 semaforo = True
 while semaforo == True:
-    ingreso = int(input("1-Gestion de datos 2-Compras (-1 para salir): "))  # Administrar datos
+    ingreso = int(input("1-Gestion de electrodomesticos\n2-Gestion de clientes y compras\n(-1 para salir): "))  # Administrar datos
     if ingreso == -1:
         print("Finalizando Programa...")
         semaforo = False  # Termina el programa si el usuario ingresa -1
